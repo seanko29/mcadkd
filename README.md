@@ -29,6 +29,11 @@ Knowledge distillation (KD) is a powerful technique for model compression, enabl
 <img width="1000" height="800" alt="main_image" src="https://github.com/user-attachments/assets/e0c2c363-28f2-4721-8af4-89445e95fff4" />
 </p>
 
+<p align="center">
+[SR-San-2.pdf](https://github.com/user-attachments/files/23337856/SR-San-2.pdf)
+</p>
+
+
 **Framework Overview:**
 
 
