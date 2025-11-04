@@ -6,7 +6,7 @@
 
 #### **<sup>1</sup> Sungkyunkwan University - <sup>2</sup> AiM Future Inc.**
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://openaccess.thecvf.com/content/ICCV2025W/AIGENS/papers/Ko_Multi-Scale_Contrastive-Adversarial_Distillation_for_Super-Resolution_ICCVW_2025_paper.pdf)
+[![paper](https://img.shields.io/badge/ICCV-2025-4b44ce.svg)](https://openaccess.thecvf.com/content/ICCV2025W/AIGENS/papers/Ko_Multi-Scale_Contrastive-Adversarial_Distillation_for_Super-Resolution_ICCVW_2025_paper.pdf)
 
 ## Latest
 - `10/2024`: Code released.
@@ -26,10 +26,11 @@ Knowledge distillation (KD) is a powerful technique for model compression, enabl
 </details>
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/f7fd13a8-fc06-459a-92d0-1a76cae3b90a" width="800"/>
+<img width="1000" height="800" alt="main_image" src="https://github.com/user-attachments/assets/e0c2c363-28f2-4721-8af4-89445e95fff4" />
 </p>
 
 **Framework Overview:**
+
 
 <p align="center">
 <a href="https://github.com/user-attachments/files/23337530/SR-San-2.pdf">
