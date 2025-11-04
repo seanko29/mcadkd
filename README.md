@@ -2,16 +2,20 @@
 
 ### Multi-scale Contrastive and Adversarial Knowledge Distillation for SISR
 
-#### [Donggeun Ko<sup>1,2</sup>](your-website-url), [Youngsang Kwak<sup>2</sup>](co-author-url), [San Kim<sup>2</sup>](co-author-url), [Jaekwang Kim<sup>2</sup>](co-author-url)
+#### [Donggeun Ko<sup>2</sup>]([your-website-url](https://seanko29.github.io/)), [Youngsang Kwak<sup>2</sup>](co-author-url), [San Kim<sup>1</sup>]([co-author-url](https://dramatic-samba-372.notion.site/San-KIM-22df520864034fc184d605d52b0944f2)), [Jaekwang Kim<sup>1</sup>]([co-author-url](https://scholar.google.com/citations?user=zyjtJZwAAAAJ&hl=en))
 
 #### **<sup>1</sup> Sungkyunkwan University - <sup>2</sup> AiM Future Inc.**
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://openaccess.thecvf.com/content/ICCV2025W/AIGENS/papers/Ko_Multi-Scale_Contrastive-Adversarial_Distillation_for_Super-Resolution_ICCVW_2025_paper.pdf)
 
 ## Latest
-- `10/2024`: Code & checkpoints release.
+- `10/2024`: Code released.
 - `09/2024`: MCADKD has been accepted at ICCV Workshop 2025 at [AIGENS2025](https://ai4streaming-workshop.github.io/)! 🎉 
 
+## TO-DO:
+- `11/2024`: Release checkpoints.
+
+  
 ## Method:
 <br>
 <details>
@@ -40,7 +44,7 @@ Knowledge distillation (KD) is a powerful technique for model compression, enabl
   <font size="+1">Main Results</font>
   </summary>
 
-The model achieves competitive performance with significantly reduced parameters compared to teacher networks, while maintaining high PSNR and SSIM scores on standard benchmarks (Set5, Set14, BSD100, Urban100, Manga109).
+
 
 <p align="center">
 <img src="path/to/your/results_table.png" width="900"/>
