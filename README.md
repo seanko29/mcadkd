@@ -1,30 +1,27 @@
-# MCADKD - Multi-scale Contrastive and Adversarial Knowledge Distillation for SISR
+# MCADKD - ICCV Workshop 2025
 
-### ICCV Workshop 2025
+### Multi-scale Contrastive and Adversarial Knowledge Distillation for SISR
 
-## Overview
+#### [Donggeun Ko<sup>1</sup>](your-website-url), [Youngsang Kwak<sup>1</sup>](co-author-url), [San Kim<sup>1</sup>](co-author-url), [Jaekwang Kim<sup>1</sup>](co-author-url)
 
-MCADKD (Multi-scale Contrastive and Adversarial Knowledge Distillation) is an advanced knowledge distillation framework for Single Image Super-Resolution (SISR). This method combines contrastive learning at multiple scales with adversarial training to effectively transfer knowledge from large teacher networks to compact student networks.
+#### **<sup>1</sup> AiM Future Inc.**, **<sup>1</sup> Sungkyunkwan University**
 
-## Key Features
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]([your-arxiv-link](https://openaccess.thecvf.com/content/ICCV2025W/AIGENS/papers/Ko_Multi-Scale_Contrastive-Adversarial_Distillation_for_Super-Resolution_ICCVW_2025_paper.pdf))
 
-- **Hybrid Contrastive Learning**: Combines both image-level and patch-level contrastive learning for comprehensive feature alignment
-- **Adaptive Temperature Learning**: Learnable temperature parameter in InfoNCE loss for better optimization
-- **Adversarial Training**: Incorporates GAN-based adversarial loss for enhanced perceptual quality
-- **Multi-scale Knowledge Transfer**: Transfers knowledge at different spatial scales for better detail preservation
-- **Flexible Architecture Support**: Works with various SR architectures (SwinIR, EDSR, etc.)
+## Latest
+- `MM/DD/2024`: Code & checkpoints release.
+- `MM/DD/2024`: MCADKD has been accepted at ICCV Workshop 2025 at [AIGENS2025](https://ai4streaming-workshop.github.io/)! 🎉 
 
-## Method
+## Method:
+<br>
+<details>
+  <summary>
+  <font size="+1">Abstract</font>
+  </summary>
+Knowledge distillation (KD) is a powerful technique for model compression, enabling the creation of compact and efficient "student" models by transferring knowledge from large-scale, pre-trained "teacher" models. However, the application of traditional KD methods in this domain is considerably more challenging than in high-level tasks like classification, as the SISR task is to reconstruct image pixels a regression problem. Hence, to effectively distill the knowledge of a teacher model in SR, we propose MCAD-KD, Multi-Scale Contrastive–Adversarial Distillation for Super-Resolution. We utilize a novel hybrid contrastive learning framework that operates on both global (image-level) and local (patch-level) scales. Furthermore, we integrate adversarial guidance, which pushes the student's output towards the manifold of realistic images, allowing it to potentially surpass the perceptual quality of the teacher by learning directly from the ground-truth data distribution. Our comprehensive framework synergistically combines these components to train a lightweight student model that achieves a superior trade-off between perceptual quality and computational efficiency.
+</details>
 
-MCADKD employs a multi-faceted distillation approach:
-
-1. **Image-level Contrastive Loss**: Aligns global representations between student and teacher outputs
-2. **Patch-level Contrastive Loss**: Captures fine-grained local details through patch-based learning
-3. **Response-based Knowledge Distillation**: Direct supervision from teacher predictions
-4. **Adversarial Loss**: Enhances perceptual quality through discriminator feedback
-5. **Reconstruction Loss**: Ensures fidelity to ground truth images
-
-The combined loss function enables effective knowledge transfer while maintaining computational efficiency in the student network.
+![](path/to/your/architecture/diagram.png)
 
 ## Installation
 
@@ -120,11 +117,6 @@ datasets:
 
 ## Model Architecture
 
-MCADKD supports various SR architectures as student and teacher networks:
-
-- **SwinIR**: Transformer-based architecture with shifted window attention
-- **EDSR**: Enhanced Deep Residual Networks for Image Super-Resolution
-- Custom architectures can be easily integrated through BasicSR's modular design
 
 ## Results
 
