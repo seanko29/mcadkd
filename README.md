@@ -2,7 +2,7 @@
 
 ### Multi-scale Contrastive and Adversarial Knowledge Distillation for SISR
 
-#### [Donggeun Ko<sup>2</sup>](https://seanko29.github.io), [Youngsang Kwak<sup>2</sup>](co-author-url), [San Kim<sup>1</sup>](https://dramatic-samba-372.notion.site/San-KIM-22df520864034fc184d605d52b0944f2), [Jaekwang Kim<sup>1</sup>](https://scholar.google.com/citations?user=zyjtJZwAAAAJ&hl=en)
+#### [Donggeun Ko<sup>2</sup>](https://seanko29.github.io), [Youngsang Kwak<sup>2</sup>](co-author-url), [San Kim<sup>1</sup>](https://saan.kim/), [Jaekwang Kim<sup>1</sup>](https://scholar.google.com/citations?user=zyjtJZwAAAAJ&hl=en)
 
 #### **<sup>1</sup> Sungkyunkwan University - <sup>2</sup> AiM Future Inc.**
 
